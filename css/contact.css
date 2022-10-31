@@ -1,0 +1,37 @@
+body {
+    max-height: 100px;
+}
+
+
+
+#text-top {
+    color: rgba(43, 208, 226, 0.755);
+}
+    
+.textbox {
+    position: relative;
+    top: 50;
+    left: 300;
+
+    max-width: 300;
+}
+
+#textarea-0 {
+    position: relative;
+    top: 15;
+    color: azure;
+    background: transparent;
+}
+
+.btns {
+    position: relative; 
+    top: 30;
+}
+
+button {
+    background: coral;
+    border-style: dashed;
+    padding: 2px;
+    border-radius: 5px;
+    color: white;
+}

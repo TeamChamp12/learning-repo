@@ -1,0 +1,55 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/contact.css">
+</head>
+
+<body>
+    <nav>
+        <label class="logo">Blog</label>
+        <ul>
+            <li><a class="navA" href="./index.html">Home</a></li>
+            <li><a class="current navA" href="./contact.html">Contact</a></li>
+            <li><a class="navA" href="./aboutus.html">About us</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <div class="textbox">
+            <h3 id="text-top">Contact Us</h3>
+            <textarea id="textarea-0" cols="80" rows="13"></textarea>
+
+            <div class="btns">
+                <button id="send">Send</button>
+            </div>
+        </div>
+
+        <script>
+            const send = document.getElementById('send');
+
+            send.onclick = function () {
+                alert('Sorry the website is under development')
+            }
+        </script>
+    </section>
+    <footer>
+        <div class="flex" id="center">
+            <p class="footer-content">Check the original content </p> <a class="footer-content"
+                href="https://www.techopedia.com/definition/4956/social-networking-site-sns"> Technopedia</a>
+
+            <p style="padding-left: 5em;" class="footer-content">images by</p> <a class="footer-content"
+                href="https://source.unsplash.com/">Source Unsplash</a>
+
+            <p style="padding-left: 5em;" class="footer-content">Made By </p><a class="footer-content"
+                href="https://github.com/Naman-Biswajit">Naman-Biswajit</a>
+
+        </div>
+    </footer>
+</body>
+
+</html>
